@@ -31,8 +31,8 @@ Training uses molecules with more than 2 heteroatoms; testing uses molecules wit
 Notebooks were run on Google Colab (PyTorch Geometric, RDKit, DeepChem, scikit-learn, statsmodels, SHAP).
 
 ## Notebook guide
-- [ESOL_experiments.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/ESOL_experiments.ipynb): compositional-split analyses (sections 1-3), hybrid vs graph-only ablation (section 2), faithfulness (section 4)
+- [Esol_experiments.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/Esol_experiments.ipynb): compositional-split analyses (sections 1-3), hybrid vs graph-only ablation (section 2), faithfulness (section 4)
 - [ESOL_GCN+AttentiveFp_ScaffoldSplit.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/ESOL_GCN%2BAttentiveFp_ScaffoldSplit.ipynb): GCN and AttentiveFP comparisons (ESOL, scaffold split only).
-- [FreeSolv_experiments.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/Freesolv_experiments.ipynb): same structure.
+- [Freesolv_experiments.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/Freesolv_experiments.ipynb): same structure.
 - [Lipophilicity_experiments.ipynb](https://github.com/SushmitaMaity/Predicting-GNN-error/blob/main/Lipophilicity_experiments.ipynb): same structure.
 
