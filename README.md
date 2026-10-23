@@ -9,6 +9,7 @@ Research code and working notebooks, not a cleaned pipeline. The work was submit
 - Notebooks for ESOL, Lipophilicity and FreeSolv, each with random, scaffold and heteroatom-based splits
 - A hybrid GAT (five global RDKit descriptors: LogP, MW, TPSA, HBD, HBA), a graph-only ablation, and GCN and AttentiveFP comparisons
 - Per-molecule error analysis: Mann-Whitney tests, OLS with nearest-neighbour novelty controls, Bonferroni and Benjamini-Hochberg correction, and a cross-validated random-forest meta-model with SHAP
+- GCN and AttentiveFP comparisons (ESOL, scaffold split only)
 - GNNExplainer faithfulness analysis (in progress)
 
 ## The compositional split
@@ -23,6 +24,7 @@ Training uses molecules with more than 2 heteroatoms; testing uses molecules wit
 ## Limitations
 - Seed-to-seed and run-to-run variability is substantial, especially for FreeSolv; GPU runs are not bitwise reproducible.
 - The analyzed descriptors overlap with model inputs, so some associations may reflect descriptor-space extrapolation.
+- The compositional-split analyses use one architecture family (a GAT with and without descriptor inputs); GCN and AttentiveFP were run only on ESOL with the scaffold split.
 - Mostly one architecture; three small benchmark datasets; p-values are uncorrected in some robustness checks.
 
 ## Running
